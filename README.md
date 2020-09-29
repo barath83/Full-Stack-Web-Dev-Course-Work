@@ -17,3 +17,10 @@ This repo contains apps built using ReactJs.
  * Props and passing data.
  * Event and state handling.
  
+ ## 3. React Hooks - Module 26
+[React Complete Guide- Udemy](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) - Module 4
+ * What is React Hooks?
+ * Basics of Hooks and usage.
+ * How to use Hooks and rules.
+ * useState() Hook explained.
+ 
