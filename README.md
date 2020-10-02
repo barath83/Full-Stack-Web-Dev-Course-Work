@@ -25,7 +25,7 @@ This repo contains apps built using ReactJs and my documentation material for le
  * useState() Hook explained.
  
   ## 4. NodeJs & ExpressJs Refresher
-[MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 26
+[MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 6
  * What is NodeJs
  * Basic filehandling and server codes.
  * What is ExpressJs
