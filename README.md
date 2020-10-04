@@ -33,4 +33,15 @@ This repo contains apps built using ReactJs and my documentation material for le
  * What is ExpressJs
  * Advantages of ExpressJs and why it should be used with NodeJs.
  
+ ## 4. Building a REST API
+[MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 7 <br/>
+[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/mern_placesapp/backend)
+ 
+ * Structuring different routes for the project.
+ * Identifying GET, POST,PATCH, DELETE requests and it's respective routes.
+ * Using MVC pattern.
+ * REST API endpoints and how to form routes.
+ * Handling requests and using POSTMAN for testing purposes.
+ * Handling errors using a dedicated module.
+ * Validation using express-validator.
  
