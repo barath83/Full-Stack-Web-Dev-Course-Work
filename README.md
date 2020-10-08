@@ -56,6 +56,5 @@ This repo contains apps built using ReactJs and my documentation material for le
  * GET & POST using mongoDB.
  * GET & POST using mongoose.
  * Difference between usage of mongoDB and mongoose.
- * Database,collections and handling structure in mongoDB Atlas.
  * Using Model & Schema in mongoose.
  
