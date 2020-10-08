@@ -40,7 +40,7 @@ const getProducts = async (req,res,next) => {
         //connect to db
         const db = client.db();
         //use await since the connection is asynchronus
-        //get all products in the collection in a array
+        //get all products in the collection in a
         products = await db.collection('products').find().toArray();
 
     }catch(error){
