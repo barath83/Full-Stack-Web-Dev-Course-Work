@@ -45,3 +45,16 @@ This repo contains apps built using ReactJs and my documentation material for le
  * Handling errors using a dedicated module.
  * Validation using express-validator.
  
+ 
+ ## 5. MongoDB & Mongoose Refresher
+[MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 8 <br/>
+[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/basic_mongo)
+ 
+ * Introduction to mongoDB.
+ * Connecting mongoDB to our backend.
+ * Creating a mongoDB cluster and a project.
+ * GET & POST using mongoDB.
+ * GET & POST using mongoose.
+ * Difference between usage of mongoDB and mongoose.
+ * Using Model & Schema in mongoose.
+ 
