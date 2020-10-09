@@ -8,7 +8,7 @@ const Product = require('./models/products');
 //handles the overall connection
 //it also returns a promise 
 mongoose.connect(
-    'mongodb+srv://barath:barath@cluster0.zz590.mongodb.net/products_test?retryWrites=true&w=majority'
+    'mongodb+srv://barath:barath@firstcluster.0iqey.mongodb.net/product?retryWrites=true&w=majority'
     ).then(()=>{
         console.log("Connected to database");
     }).catch(()=>{

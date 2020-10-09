@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose =  require('mongoose');
 
 //our own imports for routes
 const placesRoutes = require('./routes/places-routes');
@@ -30,5 +31,11 @@ app.use((error,req,res,next) => {
     res.json({message: error.message || 'An unknown error occurred.'});
 });
 
-
-app.listen(5000);
+mongoose
+.connect('mongodb+srv://barath:barath@firstcluster.0iqey.mongodb.net/places?retryWrites=true&w=majority')
+.then(() => {
+    app.listen(5000);
+})
+.catch(err => {
+    console.log(err);
+});
