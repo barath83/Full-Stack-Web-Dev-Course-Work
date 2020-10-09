@@ -105,7 +105,7 @@ const updatePlace = async (req,res,next) => {
     const errors = validationResult(req);
     if(!errors.isEmpty()){
         console.log(errors);
-        throw new HttpError('Invalid inputs given,please check',422);
+        return next(new HttpError('Invalid inputs given,please check',422));
     }
 
     // we need data for updation 
