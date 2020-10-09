@@ -3,6 +3,9 @@ const {validationResult} = require('express-validator');
 const HttpError = require('../models/http-error');
 const Place = require('../models/place');
 const getCoordsForAddress = require('../util/location');
+const User =  require('../models/user');
+const mongoose = require('mongoose');
+
 let DUMMY_PLACES = [
     {
         id:'p1',
@@ -89,8 +92,36 @@ const createPlace = async (req,res,next) => {
       creator
     });
 
+    let user;
     try{
-      await createdPlace.save();
+      user = await User.findById(creator);
+    }catch(err){
+      const error = new HttpError('Creating place failed,try again',500);
+      return next(error);
+    }
+
+    if(!user) {
+      const error = new HttpError('Cannot find user',404);
+      return next(error);
+    }
+
+    try{
+
+      //transactions run on sessions to carry out the activities of both creating a place 
+      //and adding it to the specifies users list
+      //start a session async task
+      const sess = await mongoose.startSession();
+      //start transactions with that session
+      sess.startTransaction();
+      //create a place and save it should pass session as argument
+      await createdPlace.save({session : sess});
+      //should push the createdplace inside the user who is saving
+      user.places.push(createdPlace); 
+      //should save the user's updated list
+      await user.save({session : sess})
+      //session commits the transaction
+      await sess.commitTransaction();
+
     }catch(err){
       const error = new HttpError('Creating place failed,try again',500);
       return next(error);
@@ -141,14 +172,24 @@ const deletePlace = async (req,res,next) => {
 
     let place;
     try{
-      place = await Place.findById(placeId);
+      place = await Place.findById(placeId).populate('creator');
     }catch(err){
       const error = new HttpError('Something went wrong could not delete place',500);
       return next(error);
     }
 
+    if(!place) {
+      const error = new HttpError('Could not find place for this id',404);
+    }
+
     try{
-      await place.remove();
+      const sess = await mongoose.startSession();
+      sess.startTransaction();
+      await place.remove({session:sess});
+      place.creator.places.pull(place);
+      await place.creator.save({session:sess});
+      await sess.commitTransaction();
+
     }catch(err){
       const error = new HttpError('Something went wrong could not delete place',500);
       return next(error);
