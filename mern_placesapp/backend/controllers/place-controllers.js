@@ -6,19 +6,7 @@ const getCoordsForAddress = require('../util/location');
 const User =  require('../models/user');
 const mongoose = require('mongoose');
 
-let DUMMY_PLACES = [
-    {
-        id:'p1',
-        title:'Marina',
-        description:'2ND Longest Beach in World',
-        location : {
-            lat: 60.78934,
-            lng: 42.34597,
-        },
-        address: 'Lighthouse Road Chennai',
-        creator:'u1',
-    }
-]
+
  
  
  const getPlaceById = async (req,res,next)=> {
