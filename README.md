@@ -1,6 +1,6 @@
-# Reactjs-Course-Work
+# Full Stack Web Dev Course Work
 
-This repo contains apps built using ReactJs and my documentation material for learning several concepts in ReactJs.
+This repo contains my documentation material for learning several concepts in Web development.
 
 ## 1. MERN Stack 
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 2
