@@ -1,6 +1,6 @@
 # Full Stack Web Dev Course Work
 
-This repo contains my documentation material for learning several concepts in Web development.
+>This repo contains my documentation material for learning several concepts in Web development.
 
 ## 1. MERN Stack 
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 2
@@ -12,6 +12,7 @@ This repo contains my documentation material for learning several concepts in We
 
 ## 2. Basics of ReactJs
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 4
+
  * What is React?
  * Components - Class and Functional
  * Props and passing data.
@@ -19,6 +20,7 @@ This repo contains my documentation material for learning several concepts in We
  
  ## 3. React Hooks 
 [React Complete Guide- Udemy](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) - Module 26
+
  * What is React Hooks?
  * Basics of Hooks and usage.
  * How to use Hooks and rules.
@@ -26,8 +28,7 @@ This repo contains my documentation material for learning several concepts in We
  
   ## 4. NodeJs & ExpressJs Refresher
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 6 <br/>
-[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/nodejs_codes)
- 
+
  * What is NodeJs
  * Basic filehandling and server codes.
  * What is ExpressJs
@@ -35,8 +36,7 @@ This repo contains my documentation material for learning several concepts in We
  
  ## 4. Building a REST API
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 7 <br/>
-[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/mern_placesapp/backend)
- 
+
  * Structuring different routes for the project.
  * Identifying GET, POST,PATCH, DELETE requests and it's respective routes.
  * Using MVC pattern.
@@ -48,7 +48,7 @@ This repo contains my documentation material for learning several concepts in We
  
  ## 5. MongoDB & Mongoose Refresher
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 8 <br/>
-[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/basic_mongo)
+
  
  * Introduction to mongoDB.
  * Connecting mongoDB to our backend.
@@ -61,7 +61,7 @@ This repo contains my documentation material for learning several concepts in We
  
   ## 6. Connecting mongoDB to backend.
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 9 <br/>
-[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/mern_placesapp/backend)
+
  
  * Mongoose for backend.
  * Connecting mongoDB to our backend.
