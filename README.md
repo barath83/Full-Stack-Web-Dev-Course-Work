@@ -1,6 +1,6 @@
-# Reactjs-Course-Work
+# Full Stack Web Dev Course Work
 
-This repo contains apps built using ReactJs and my documentation material for learning several concepts in ReactJs.
+This repo contains my documentation material for learning several concepts in Web development.
 
 ## 1. MERN Stack 
 [MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 2
@@ -57,4 +57,20 @@ This repo contains apps built using ReactJs and my documentation material for le
  * GET & POST using mongoose.
  * Difference between usage of mongoDB and mongoose.
  * Using Model & Schema in mongoose.
+ 
+ 
+  ## 6. Connecting mongoDB to backend.
+[MERN Fullstack Guide- Udemy](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/) - Module 9 <br/>
+[In this repository](https://github.com/barath83/Reactjs-Course-Work/tree/master/mern_placesapp/backend)
+ 
+ * Mongoose for backend.
+ * Connecting mongoDB to our backend.
+ * Preparing request body for GET & POST methods.
+ * Preparing Model & Schema for Places app.
+ * CRUD operations with Mongoose.
+ * Using sessions and transcations.
+ * Creating realtion with two different collection using ID's.
+ * Different mongoose methods for CRUD operations.
+ 
+ 
  
