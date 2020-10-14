@@ -55,7 +55,7 @@
  * Different mongoose methods for CRUD operations.
  
  ## 6. MERN Stack Basic Project : TODO
-[MERN Stack Todo List - Youtube](https://www.youtube.com/watch?v=bRRA-SrNyxg&t=1748s) 
+[MERN Stack Todo List - Youtube](https://www.youtube.com/watch?v=bRRA-SrNyxg&t=1748s) <br/>
 [In this repository](https://github.com/barath83/Web-Dev-Course-Work/tree/master/mern_stack/mern-todo)
 
  * CRUD operations applied in making a simple todo list.
