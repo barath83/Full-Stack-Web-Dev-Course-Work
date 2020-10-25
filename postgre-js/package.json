@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node index.js",
     "fulltable" : "node fullTable.js",
-    "asyncfulltable" : "node asyncFullTable.js"
+    "asyncfulltable" : "node asyncFullTable.js",
+    "tx" : "node tx.js"
   },
   "author": "",
   "license": "ISC",
