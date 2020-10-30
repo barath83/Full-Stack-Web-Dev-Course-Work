@@ -1,0 +1,63 @@
+body{
+    background-color:#BDD4E7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.stu-profile-form{
+    text-align: center;
+}
+
+.stu-profile-form-header{
+    text-align: center;
+    font-family: 'Oxygen';
+}
+
+.header-icon{
+    margin-left: 0.3em;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2em;
+    width: 60%;
+    margin: 1em auto;
+    box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+}
+
+.stu-profile-form-label {
+    font-family: 'Oxygen';
+    font-size:1.2em;
+    margin-left: 0.3em;
+}
+
+.stu-profile-form-field {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
+}
+
+.stu-profile-form-submit {
+    
+    background-color: #BDD4E7;
+    padding: 1em 1.7em;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Oxygen';
+}
+
+.stu-profile-form-submit:hover{
+    background-color: #6ca2ce;
+}
+
+
