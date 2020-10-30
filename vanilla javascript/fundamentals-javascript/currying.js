@@ -1,5 +1,9 @@
 /**
   Currying in js is done using closures
+  It is a technique of evaluating a function with multiple arguments into sequence of functions with single arguments
+
+  Uses:
+    - It helps to avoid passing same variable again and again
  */
 
 /* var add = function(a) {
