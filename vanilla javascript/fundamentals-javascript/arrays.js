@@ -58,7 +58,7 @@ for(let fruit of fruits){
 let arrs = [1,2,3]
 
 console.log(arrs);
-
+//puts the array elements together as comma separated values
 console.log(String(arrs));
 
 
