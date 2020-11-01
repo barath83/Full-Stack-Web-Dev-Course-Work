@@ -97,4 +97,63 @@ console.log(arr4);
 
  let fewUsers = users.filter(item => item.id<3); //filters the array of objects for items with id less than 3 which is 2 in this case
  console.log(fewUsers);   //prints item 1 and 2
+
+ //Transform an array
+
+ /**
+  * map
+  * It calls an function for each element of the array and returns the array results
+  * let result = arr.map(function(item, index, array) {
+  // returns the new value instead of item
+});
+  */
+
+  let someNum = [2,3,4,5]
+  let newNum = someNum.map(item => item+2); // adds all elements in array by 2 and returns a new array
+  console.log(newNum);
+ 
+ let newarr = [1,2,15]
+ newarr.sort()
+ console.log(newarr); // prints 1,15,2
+ //the items are sorted as strings by default so it becomes 1,15,2 in lexographic order
+
+ //We have to pass an extra comparison function to achieve normal integer sorting
+ 
+ //reverses the array 
+ newarr.reverse();
+ console.log(newarr);
+
+ //reduce
+ /*
+ Syntax
+ //let value = arr.reduce(function(accumulator, item, index, array) {
+  // ...
+//}, [initial]);
+ - accumulator-the result of the previous function call,for the first time it will initial if it is provided
+ - item 
+ - index position
+ - array
+
+ As function is applied the result of the prev function call is passed to the next one as first argument
+
+*/
+
+//Sum of array
+
+let sumArr = [1,2,3,4,5]
+
+//currItem is the each element in the array
+//sum adds on the value and adds each element in the array
+//0 is initialized for the first time
+let sum = sumArr.reduce((sum,currItem) => sum+currItem ,0);
+console.log(sum);
+
+//split 
+//splits the string by a delimiter and turns it into a array
+
+let str = 'this-is-a-long-word';
+
+let strArr = str.split('-');
+console.log(strArr);
+ 
  
