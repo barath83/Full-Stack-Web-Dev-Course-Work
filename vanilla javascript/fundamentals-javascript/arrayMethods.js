@@ -154,6 +154,8 @@ console.log(sum);
 let str = 'this-is-a-long-word';
 
 let strArr = str.split('-');
-console.log(strArr);
+console.log(strArr); //prints['this','is','a','long','word']
+
+
  
  
