@@ -84,5 +84,17 @@ console.log(arr4);
     {id: 3, name: "Mary"}
   ];
 
-  let user = users.find(item=> item.id==2);
-  console.log(user.name);
+  let user = users.find(item=> item.id==2); //this will run through the array of objects find the object with id as 2 
+  console.log(user.name); // prints 'pete'
+
+  /**
+   * Filter
+   * let results = arr.filter(function(item, index, array) {
+  // if true item is pushed to results and the iteration continues
+  // returns empty array if nothing found
+});
+   */
+
+ let fewUsers = users.filter(item => item.id<3); //filters the array of objects for items with id less than 3 which is 2 in this case
+ console.log(fewUsers);   //prints item 1 and 2
+ 
