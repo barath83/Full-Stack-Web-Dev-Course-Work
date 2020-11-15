@@ -24,6 +24,7 @@ x(1,2,3,4,5,6);
 
 //Here we can a,b,c as the first three sure known parameters and the rest can be unknown
 //to handle the unknown parameters we can use spread ...n
+// the parameters in which the spread operators are use are rest parameters
 var y = function(a,b,c,...n){
 
     console.log(n);
