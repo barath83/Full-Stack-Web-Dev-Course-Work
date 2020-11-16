@@ -1,10 +1,10 @@
 const {Client} = require('pg');
 const client = new Client({
-    user : "postgres",
-    password : "barathpriya83",
-    host: "localhost",
-    port : 5432,
-    database : "postgres",
+    user : "",
+    password : "",
+    host: "",
+    port : ,
+    database : "",
 });
 
 //the function should always be called for the code to be executed unlike the then calls 
