@@ -157,5 +157,27 @@ let strArr = str.split('-');
 console.log(strArr); //prints['this','is','a','long','word']
 
 
+//forEach is one of the several methods to loop through iterables-array
+//forEach method passes an callback function for each element of the array
+const numbers = [1,2,3,4,5]
  
- 
+// Current value in array - required parameter
+// index - optional parameter
+//array - the array to which the current element belongs - optional parameter
+
+/*numbers.forEach(function(number){
+  console.log(number); //prints numbers in the order 
+});*/
+
+//Arrow function representation
+numbers.forEach(number => console.log(number));
+
+//Sum of all values in array
+let sumv = 0;
+//calls the sumfunc for each element in numbers
+numbers.forEach(sumfunc);
+//adds each element in the numbers array
+function sumfunc(number){
+  sumv+=number;
+}
+console.log(sumv);
